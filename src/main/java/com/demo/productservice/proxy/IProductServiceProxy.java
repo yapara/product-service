@@ -1,8 +1,3 @@
-/**
- * Copyright 2016 Expedia, Inc. All rights reserved.
- * EXPEDIA PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
-
 package com.demo.productservice.proxy;
 
 import com.demo.productservice.response.price.GetPriceResponse;
