@@ -1,6 +1,5 @@
 package com.demo.productservice.validators.productprice;
 
-import com.demo.productservice.request.product.GetProductRequest;
 import com.demo.productservice.request.productprice.GetProductPriceRequest;
 import com.demo.productservice.validators.BaseValidator;
 import com.demo.productservice.validators.IValidator;

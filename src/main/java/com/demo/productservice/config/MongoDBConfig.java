@@ -19,7 +19,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 
 
 @Configuration
-@PropertySource("file:src/main/resources/application.properties")
+@PropertySource("file:src/main/resources/application.yml")
 @EnableMongoRepositories(basePackageClasses = ProductRepository.class ,mongoTemplateRef = "mongoTemplate")
 @EnableMongoAuditing
 public class MongoDBConfig extends AbstractMongoClientConfiguration {

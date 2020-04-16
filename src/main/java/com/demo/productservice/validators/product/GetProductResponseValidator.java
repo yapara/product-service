@@ -1,8 +1,6 @@
 package com.demo.productservice.validators.product;
 
-import com.demo.productservice.request.price.GetPriceRequest;
 import com.demo.productservice.request.product.GetProductRequest;
-import com.demo.productservice.response.price.GetPriceResponse;
 import com.demo.productservice.response.product.GetProductResponse;
 import com.demo.productservice.validators.BaseValidator;
 import com.demo.productservice.validators.IValidator;
