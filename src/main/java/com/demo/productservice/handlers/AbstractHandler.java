@@ -40,7 +40,7 @@ public abstract class AbstractHandler<T, S> implements IHandler<T, S> {
    * @return The response object
    * @throws Exception Exception.
    */
-  protected abstract S process(final T request) throws Exception;
+  protected abstract S process(final T request)  throws Exception;
 
   /**
    * Handles exceptions and build response with failures.

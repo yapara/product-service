@@ -3,6 +3,7 @@ import com.codahale.metrics.Timer;
 import com.demo.productservice.handlers.product.CreateProductHandler;
 import com.demo.productservice.handlers.product.GetProductHandler;
 import com.demo.productservice.handlers.product.UpdateProductHandler;
+import com.demo.productservice.handlers.productprice.GetProductPriceHandler;
 import com.demo.productservice.metrics.MetricsUtil;
 import com.demo.productservice.request.Constants;
 import com.demo.productservice.request.product.CreateProductRequest;

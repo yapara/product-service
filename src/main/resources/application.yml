@@ -1,0 +1,24 @@
+
+# Product service proxy
+productservice:
+url:
+endpoint: https://localhost:8080
+producturi: /api/v1/product
+priceuri: /api/v1/price
+media:
+type: application
+subtype: fastinfoset
+timeout:
+readTimeout: 30000
+connectionTimeout: 10000
+
+getcancelinforequest:
+clientname: KioskService
+debugTraceBoolean: true
+countryAlphaCode: US
+languageCode: en
+
+#Mongo Properties
+mongo:
+  uri: mongodb://127.0.0.1:27017/demo
+  database: demo

@@ -1,6 +1,8 @@
 package com.demo.productservice.exceptions;
 
 public enum ApplicationErrorType {
+  UNKNOWN_ERROR,
+  CONNECTION_ERROR,
   INVALID_REQUEST_VALUE,
   INVALID_EXTERNAL_RESPONSE,
   MISSING_RESPONSE_DATA,
